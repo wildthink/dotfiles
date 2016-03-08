@@ -1,0 +1,48 @@
+[user]
+	name = Jason Jobe
+	email = github@jasonjobe.com
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/jason/.gitignore_global
+	editor = 'vi'
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+
+[color "status"]
+  changed = yellow
+  added = green
+  untracked = red
+
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  fdiff = show --stat
+  fdif  = show --stat
+  dif   = show --stat
+
+[credential]
+	helper = osxkeychain
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
