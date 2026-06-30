@@ -1,0 +1,26 @@
+{
+  "repos" : [
+    {
+      "branch" : "main",
+      "path" : "Packages/Ontology",
+      "remote" : "https://github.com/wildthink/Ontology"
+    },
+    {
+      "branch" : "main",
+      "path" : "Projects/Surfboard",
+      "remote" : "https://github.com/wildthink/Surfboard"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/Pipeline",
+      "remote" : "https://github.com/wildthink/Pipeline.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/Units",
+      "remote" : "https://github.com/wildthink/Units.git"
+    }
+  ],
+  "root" : ".",
+  "version" : 1
+}
