@@ -1,0 +1,96 @@
+{
+  "repos" : [
+    {
+      "branch" : "main",
+      "path" : "Packages/Freebase",
+      "remote" : "https://github.com/wildthink/freebase"
+    },
+    {
+      "branch" : "main",
+      "path" : "Packages/Luxo",
+      "remote" : "https://github.com/wildthink/Luxo.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Packages/NewRules",
+      "remote" : "https://github.com/wildthink/NewRules.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Packages/OKFFormat",
+      "remote" : "git@github.com:wildthink/OKFFormat.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Packages/OKOntology",
+      "remote" : "https://github.com/wildthink/OKOntology"
+    },
+    {
+      "branch" : "main",
+      "path" : "Packages/WAIS",
+      "remote" : "https://github.com/wildthink/WAIS.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Projects/ImprovII",
+      "remote" : "https://github.com/wildthink/improv_ii.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Projects/ResearchAssistant",
+      "remote" : "https://github.com/wildthink/ResearchAssistant.git"
+    },
+    {
+      "branch" : "agenda-rework",
+      "path" : "Projects/Surfboard",
+      "remote" : "https://github.com/wildthink/surfboard.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Projects/sitewright",
+      "remote" : "git@github.com:wildthink/sitewright.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Sites/wildthink-site",
+      "remote" : "git@github.com:wildthink/wildthink.github.io.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/LCARS",
+      "remote" : "https://github.com/TEParsons/LCARS.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/Pipeline",
+      "remote" : "https://github.com/wildthink/Pipeline.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/Units",
+      "remote" : "https://github.com/wildthink/Units.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/cleanrmd",
+      "remote" : "https://github.com/gadenbuie/cleanrmd.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/sqlite-data",
+      "remote" : "https://github.com/pointfreeco/sqlite-data.git"
+    },
+    {
+      "branch" : "feat/directives",
+      "path" : "ThirdParty/swift-markdown-engine",
+      "remote" : "https://github.com/wildthink/swift-markdown-engine.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "ThirdParty/swift-sharing",
+      "remote" : "https://github.com/pointfreeco/swift-sharing.git"
+    }
+  ],
+  "root" : ".",
+  "version" : 1
+}
