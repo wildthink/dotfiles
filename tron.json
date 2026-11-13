@@ -2,6 +2,11 @@
   "repos" : [
     {
       "branch" : "main",
+      "path" : "Packages/CommunityLedger",
+      "remote" : "git@github.com:wildthink/community-ledger.git"
+    },
+    {
+      "branch" : "main",
       "path" : "Packages/Freebase",
       "remote" : "https://github.com/wildthink/freebase"
     },
@@ -32,6 +37,31 @@
     },
     {
       "branch" : "main",
+      "path" : "Packages/code-monkey",
+      "remote" : "https://github.com/wildthink/code-monkey-private"
+    },
+    {
+      "branch" : "field-notes",
+      "path" : "Packages/code-monkey-notes",
+      "remote" : "https://github.com/wildthink/code-monkey-private"
+    },
+    {
+      "branch" : "main",
+      "path" : "Packages/doc-monkey",
+      "remote" : "git@github.com:wildthink/doc-monkey.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Packages/latticeDB-swift",
+      "remote" : "https://github.com/wildthink/latticeDB-swift"
+    },
+    {
+      "branch" : "deep-sequences",
+      "path" : "Packages/universal-fork",
+      "remote" : "https://github.com/marcprux/universal.git"
+    },
+    {
+      "branch" : "main",
       "path" : "Projects/ImprovII",
       "remote" : "https://github.com/wildthink/improv_ii.git"
     },
@@ -41,7 +71,7 @@
       "remote" : "https://github.com/wildthink/ResearchAssistant.git"
     },
     {
-      "branch" : "agenda-rework",
+      "branch" : "main",
       "path" : "Projects/Surfboard",
       "remote" : "https://github.com/wildthink/surfboard.git"
     },
@@ -49,6 +79,11 @@
       "branch" : "main",
       "path" : "Projects/sitewright",
       "remote" : "git@github.com:wildthink/sitewright.git"
+    },
+    {
+      "branch" : "main",
+      "path" : "Sites/saga/xsite",
+      "remote" : "git@github.com:wildthink/xsite.git"
     },
     {
       "branch" : "main",
@@ -66,6 +101,11 @@
       "remote" : "https://github.com/wildthink/Pipeline.git"
     },
     {
+      "branch" : "fix/runtime-root",
+      "path" : "ThirdParty/Saga",
+      "remote" : "https://github.com/loopwerk/Saga.git"
+    },
+    {
       "branch" : "main",
       "path" : "ThirdParty/Units",
       "remote" : "https://github.com/wildthink/Units.git"
@@ -79,11 +119,6 @@
       "branch" : "main",
       "path" : "ThirdParty/sqlite-data",
       "remote" : "https://github.com/pointfreeco/sqlite-data.git"
-    },
-    {
-      "branch" : "feat/directives",
-      "path" : "ThirdParty/swift-markdown-engine",
-      "remote" : "https://github.com/wildthink/swift-markdown-engine.git"
     },
     {
       "branch" : "main",
